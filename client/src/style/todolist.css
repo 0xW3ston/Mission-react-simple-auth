@@ -1,0 +1,148 @@
+.todolist {
+    /* text-align: center; */
+
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 391px;
+    height: 644px;
+
+    border-radius: 16px;
+    background: #BBE1FA;
+
+    padding: 0px 46px 50px 47px;
+
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.list-main-text {
+    text-align: center;
+
+    margin-top: 53px;
+    margin-bottom: 56px;
+
+    color: #000;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.add-task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.add-task-input {
+    width: 294px;
+    height: 26px;
+
+    color: #505050;
+    font-family: Arial;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border: 1px solid #000;
+    background: #BBE1FA;
+
+    padding: 13px 0px 13px 16px;
+}
+
+.add-task-btn {
+    width: 52px;
+    height: 52px;
+
+    border-radius: 9px;
+    border: 1px solid #000;
+
+    background: linear-gradient(234deg, #65B5FF 10.41%, rgba(50, 248, 120, 15) 106.48%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.add-task-btn:active {
+    background: #65B5FF;
+}
+
+.tasks-list {
+    margin-top: 40px;
+
+    height: 400px;
+    width: 391px;
+
+    /* background-color: #65B5FF; */
+
+    display: flex;
+    flex-direction: column;
+    
+    gap: 3px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 390px;
+    height: 61px;
+
+    border: 1px solid #000;
+    background: #1B262C;
+
+}
+
+.task-section {
+    margin-left: 18px;
+
+    display: flex;
+    align-items: center;
+}
+
+.task-checkbox {
+    margin-right: 11px;
+    width: 32px;
+    height: 32px;
+
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.task-text {
+    width: 276px;
+
+    color: #EDF8FF;
+    font-family: Arial;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.task-delete {
+    /* display: none; */
+    
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.task-delete-btn {
+    width: 31px;
+    height: 35px;
+    margin-right: 10px;
+}
